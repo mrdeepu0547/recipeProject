@@ -12,5 +12,5 @@ export class RecipesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  selectedRecipe : Recipe | undefined;
+  selectedRecipe!: Recipe;
 }
